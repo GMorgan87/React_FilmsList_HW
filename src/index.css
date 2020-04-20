@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.films-box {
+  width: 35%;
+  height: auto;
+  margin: 5% auto;
+  background-color: lightgrey;
+  text-align: center;
+  border: solid black 1px;
+}
+
+.films-list{
+  margin-bottom: 5%;
+}
+
+.film {
+}
+
+.film a{
+  text-decoration: none;
+  color: rgb(39, 80, 155);
+}
+
+.more-films {
+  width: 90%;
+  padding: 10px;
+  margin: 15px auto;
+  border: solid black 1px;
+  font-size: 1.5rem;
+  background-color: rgb(178, 194, 223);
+}
+
+.more-films a{
+  text-decoration: none;
+  color: rgb(39, 80, 155);
+}
+
+

@@ -11,7 +11,6 @@ class FilmsList extends Component {
 
     return (
         <div className="films-list">
-          <h4>Film List</h4>
           {filmNodes}
         </div>
     )

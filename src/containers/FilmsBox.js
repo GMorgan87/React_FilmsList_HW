@@ -39,9 +39,11 @@ class componentName extends Component {
     
   render() {
     return (
-    <div className="films=box">
-     <h1>Upcoming film releases for UK</h1>
+    <div className="films-box">
+     <h2>Upcoming film releases for UK</h2>
+     <hr/>
      <FilmsList films={this.state.films}/>
+     <hr/>
      <MoreFilms />
      </div>
     )
